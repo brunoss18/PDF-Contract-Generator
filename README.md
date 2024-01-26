@@ -1,39 +1,50 @@
-# Gerador de Contratos em PDF
+# PDF Contract Generator
 
-## Descrição do Projeto
-Este projeto consiste em um gerador de contratos em formato PDF a partir de informações inseridas em um formulário HTML. O objetivo é facilitar a criação de contratos personalizados para serviços educacionais, como ensino de idiomas, e exportá-los para um arquivo PDF.
+## Project Description
 
-## Funcionalidades
-- **Formulário Interativo:** Os usuários podem preencher um formulário com informações necessárias para o contrato, como:
-- Nome Completo: O nome completo do aluno.
-- PF: O número do Cadastro de Pessoa Física do aluno.
-- RG: O número de Registro Geral do aluno.
-- Endereço: O endereço completo do aluno.
-- E-mail: O endereço de e-mail do aluno.
-- Celular: O número de telefone celular do aluno.
-- Data de Nascimento: A data de nascimento do aluno.
-- Tipo de Contrato: O tipo de contrato que o aluno está escolhendo.
-- Vigência: A duração do contrato em meses.
-- Parcelas: O número de parcelas para pagamento do contrato.
-- Duração das Aulas: A duração de cada aula em minutos.
-- Quantidade de Aulas por Semana: O número de aulas que o aluno terá por semana.
-- Valor da Mensalidade: O valor da mensalidade do contrato em reais.
-- Data de Pagamento: O dia do mês em que a mensalidade será paga.
-- Início do Contrato: A data de início do contrato.
-- Término do Contrato: A data de término do contrato.
-  
-- **Geração de Contrato em PDF:** Após preencher o formulário, os usuários podem gerar um contrato em formato PDF clicando em um botão.
+This project consists of a PDF contract generator based on information entered in an HTML form. The goal is to facilitate the creation of personalized contracts for educational services, such as language teaching, and export them to a PDF file.
 
-## Como Iniciar o Projeto
-1. **Clone o Repositório:** Faça uma cópia do repositório para sua máquina local usando o comando:
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-2. **Abra o Projeto:** Navegue até o diretório do projeto clonado e abra-o em um editor de código de sua preferência.
-3. **Execute o Projeto:** Abra o arquivo HTML principal do projeto em seu navegador. Você deve conseguir visualizar o formulário e interagir com ele para gerar contratos em PDF.
+## Features
 
-## Atualizações Futuras
-- **Melhorias de Interface:** Adicionar mais elementos visuais e melhorar a experiência do usuário no preenchimento do formulário.
-- **Adição de Recursos:** Incluir mais opções no formulário e personalizações adicionais para os contratos gerados.
-- **Implementação de Autenticação:** Adicionar um sistema de autenticação para permitir que apenas usuários autorizados gerem contratos.
-- **Otimização de Desempenho:** Aprimorar o desempenho do aplicativo e corrigir possíveis bugs ou problemas de compatibilidade.
-- **Verificação de CPF:** Implementar um verificador para validar se o CPF inserido no formulário é válido e correspondente a uma pessoa real.
-- **Melhoria da Versão Mobile:** Aprimorar a experiência do usuário em dispositivos móveis, garantindo que o layout e a funcionalidade sejam otimizados para telas menores e dispositivos móveis.
+- **Interactive Form**: Users can fill out a form with necessary contract information, including:
+  - Full Name: The student's full name.
+  - CPF: The student's Individual Taxpayer Registry number.
+  - RG: The student's General Registry number.
+  - Address: The student's complete address.
+  - Email: The student's email address.
+  - Cellphone: The student's cellphone number.
+  - Date of Birth: The student's date of birth.
+  - Contract Type: The type of contract the student is selecting.
+  - Duration: The duration of the contract in months.
+  - Installments: The number of installments for contract payment.
+  - Duration of Lessons: The duration of each lesson in minutes.
+  - Number of Lessons per Week: The number of lessons the student will have per week.
+  - Monthly Fee: The contract's monthly fee in Brazilian Reais.
+  - Payment Date: The day of the month when the monthly fee will be paid.
+  - Start Date: The start date of the contract.
+  - End Date: The end date of the contract.
+- **PDF Contract Generation**: After filling out the form, users can generate a PDF contract by clicking a button.
+
+## Problem
+
+- High demand of students enrolling in the school.
+- Editing contracts used to take 10 to 20 minutes per contract.
+
+## Solution
+
+With the implementation of this Contract Generator, editing contracts has become much simpler and quicker. A process that previously took 10 to 20 minutes can now be completed in just 3 minutes.
+
+## How to Start the Project
+
+1. **Clone the Repository**: Make a copy of the repository to your local machine using the command: `git clone https://github.com/your-username/repository-name.git`.
+2. **Open the Project**: Navigate to the cloned project directory and open it in a code editor of your choice.
+3. **Run the Project**: Open the main HTML file of the project in your browser. You should be able to view the form and interact with it to generate PDF contracts.
+
+## Future Updates
+
+- **Interface Improvements**: Add more visual elements and improve the user experience in filling out the form.
+- **Feature Additions**: Include more options in the form and additional customizations for generated contracts.
+- **Authentication Implementation**: Add an authentication system to allow only authorized users to generate contracts.
+- **Performance Optimization**: Enhance the application's performance and address any potential bugs or compatibility issues.
+- **CPF Verification**: Implement a validator to validate if the CPF entered in the form is valid and corresponds to a real person.
+- **Mobile Version Enhancement**: Improve the user experience on mobile devices, ensuring that the layout and functionality are optimized for smaller screens and mobile devices.
