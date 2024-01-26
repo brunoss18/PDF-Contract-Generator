@@ -36,4 +36,4 @@ Este projeto consiste em um gerador de contratos em formato PDF a partir de info
 - **Implementação de Autenticação:** Adicionar um sistema de autenticação para permitir que apenas usuários autorizados gerem contratos.
 - **Otimização de Desempenho:** Aprimorar o desempenho do aplicativo e corrigir possíveis bugs ou problemas de compatibilidade.
 - **Verificação de CPF:** Implementar um verificador para validar se o CPF inserido no formulário é válido e correspondente a uma pessoa real.
-- - **Melhoria da Versão Mobile:** Aprimorar a experiência do usuário em dispositivos móveis, garantindo que o layout e a funcionalidade sejam otimizados para telas menores e dispositivos móveis.
+- **Melhoria da Versão Mobile:** Aprimorar a experiência do usuário em dispositivos móveis, garantindo que o layout e a funcionalidade sejam otimizados para telas menores e dispositivos móveis.
