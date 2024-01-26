@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Contrato Generator</title>
+</head>
+
+<body  >
+    <section class="section">
+        <form  id="contractForm">
+            
+          <div class="divImg">
+            <img  src="https://besirius.com.br/assets/img/logo-white.png" alt="">
+          </div>
+                
+            <div class="flex">
+
+                <div class="question">
+                <label class="labeltext"  for="name">Nome Completo:</label>
+                <input class="inputName" type="text" id="name" name="name" placeholder="Marcela Eduarda Quirino da silva" required>
+            </div>
+            <div class="RgCpf">
+
+           
+            <div class="question">
+                <label class="labeltext"  for="cpf">CPF:</label>
+                <input type="text" class="cpf" id="cpf" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength="10"
+                    placeholder="123.456.789-01">
+                </div>
+                <div class="question">
+                <label class="labeltext"  for="idrg">RG:</label>
+                <input type="number" id="idrg" name="id-rg" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength="10"
+                    placeholder="123.456.789-01" required>
+                </div>
+            </div>
+        </div>
+            <div class="flex">
+                <div class="question">
+                <label class="labeltext"  for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco"  placeholder="Rua dos peixes, 12, Suzano-SP 00000-000" required>
+            </div>
+            <div class="question">
+                <label class="labeltext" for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="bruno@besirius.com.br" required>
+            </div>
+            </div>
+            <div class="telnasc">
+            
+                <div class="question">
+                <label class="labeltext" for="phone">Celular:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(11) 94002-8922" required>
+            </div>  
+            <div class="question">
+                <label class="labeltext"  for="birthdate">Data de Nascimento:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            </div>
+            <!-- <div class="alignAll">
+                
+            </div> -->
+           
+            
+            
+
+
+            <div class="contractType">
+                <label>Tipo de Contrato:</label>
+
+                <div class="flex1">
+                <input class="inputRadio" type="radio" id="semFidelidade" name="tipoContrato" value="Sem Fidelidade">
+                <label class="labelRadio" for="semFidelidade">Sem Fidelidade</label>
+
+                <input class="inputRadio" type="radio" id="contrato6Meses" name="tipoContrato" value="Contrato de 6 Meses">
+                <label class="labelRadio" for="contrato6Meses">6 Meses</label>
+
+                <input class="inputRadio" type="radio" id="contrato12Meses" name="tipoContrato" value="Contrato de 12 Meses">
+                <label class="labelRadio" for="contrato12Meses">12 Meses</label>
+            </div>
+            </div>
+
+            <div class="contractType">
+                <label>Vigencia:</label>
+
+                <div class="flex1">
+                <input class="inputRadio" type="radio" id="vigencia6Meses" name="vigencia" value=" 6 (seis) meses">
+                <label class="labelRadio" for="vigencia6Meses"> 6 Meses</label>
+
+                <input class="inputRadio" type="radio" id="vigenciao12Meses" name="vigencia" value=" 12 (doze) meses">
+                <label class="labelRadio" for="vigencia12Meses"> 12 Meses</label>
+            </div>
+
+            <div class="contractType">
+                <label>Parcelas</label>
+
+                <div class="flex1">
+                <input class="inputRadio" type="radio" id="avista" name="parcela" value=" 1x (uma)">
+                <label class="labelRadio" for="vigencia6Meses"> Á vista </label>
+
+                <input class="inputRadio" type="radio" id="parcela6" name="parcela" value=" 6x (seis)">
+                <label class="labelRadio" for="vigencia6Meses"> 6x </label>
+
+                <input class="inputRadio" type="radio" id="parcela12" name="parcela" value=" 12x (doze)">
+                <label class="labelRadio" for="vigencia12Meses"> 12x </label>
+            </div>
+
+        </div>
+            <div class="contractType">
+                <label>Duração das aulas:</label>
+                <div class="flex1">
+                <input class="inputRadio" type="radio" id="semFidelidade" name="duracao" value="30 minutos">
+                <label class="labelRadio" for="30minutos">30 minutos</label>
+
+                <input class="inputRadio" type="radio" id="contrato6Meses" name="duracao" value="50 minutos">
+                <label class="labelRadio" for="50minutos">50 minutos</label>
+
+            </div>
+            </div>
+
+            <div class="contractType">
+                <label>Quantidade de Aulas por Semana:</label>
+                <div class="flex1">
+                <input class="inputRadio" type="radio" id="aula1" name="quantidadeAulas" value="1 Aula por Semana">
+                <label class="labelRadio" for="aula1">1 Aula </label>
+
+                <input class="inputRadio" type="radio" id="aula2" name="quantidadeAulas" value="2 Aulas por Semana">
+                <label class="labelRadio" for="aula2">2 Aulas </label>
+
+                <input class="inputRadio" type="radio" id="aula3" name="quantidadeAulas" value="3 Aulas por Semana">
+                <label class="labelRadio" for="aula3">3 Aulas</label>
+
+                <input class="inputRadio" type="radio" id="aula4" name="quantidadeAulas" value="4 Aulas por Semana">
+                <label class="labelRadio" for="aula4">4 Aulas </label>
+            </div>
+            </div>
+
+
+
+                <div class="menDt">
+                    <div class="question">
+                        <label for="valorMensalidade">Valor da Mensalidade (em R$):</label>
+                        <input type="number" placeholder="Exp: 200" id="valorMensalidade" name="valorMensalidade" required step="0.01">
+                    </div>
+                    <div class="question">
+                        <label>Data de pagamento:</label>
+                        <div class="flex2" id="diaPagamento">
+                        <input class="inputRadio" type="radio" id="dia5" name="pagamento" value="5">
+                        <label class="labelRadio" for="dia5">5</label>
+        
+                        <input class="inputRadio" type="radio" id="dia10" name="pagamento" value="10">
+                        <label class="labelRadio"  for="dia10">10</label>
+        
+                        <input class="inputRadio" type="radio" id="dia15" name="pagamento" value="15">
+                        <label class="labelRadio" for="dia15">15</label>
+        
+                    </div>
+
+                    
+            </div>
+
+
+
+            
+            </div>
+            
+
+            <!-- <div class="alignAll">
+               
+            </div> -->
+            <div class="terIni">
+                <div class="question">
+            <label for="inicio">Inicio do contrato</label>
+            <input type="date" id="inicio" name="inicio" required>
+        </div>
+        <div class="question">
+            <label for="inicio">Termino do contrato</label>
+            <input type="date" id="termino" name="termino" required>
+        </div>
+            </div>
+            <div class="Buttons">
+                <button type="button" onclick="generateContractMatricula()">Matricula</button>
+                <button type="button" onclick="generateContractRematricula()">Rematricula</button>
+                <button type="button" onclick="exportToPDF()">Exportar para PDF</button>
+            </div>
+            
+
+           
+
+           
+        </div>
+        </form>
+      <!-- <div class="contractType">
+           
+        </div>   -->
+         <div id="contractStyle" style="display: none;">
+                <div id="contractOutput"></div>
+            </div>   
+    </section>
+   
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/extenso@latest/dist/extenso.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+    <script src="/scripts/matricula.js"></script>
+
+    <script src="/scripts/rematricula.js"></script>
+   
+
+</body>
+
+</html>

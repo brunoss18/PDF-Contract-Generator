@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+#contractStyle {
+  /* border: 1px solid black; */
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  width: 50vw;
+  background: white;
+}
+
+#contractOutput {}
+
+.contratante,
+.contratada {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contratante>.col1 {}
+
+.contratante>.col2 {}
+
+#pdf-container>img {
+  width: 10rem;
+
+  margin-bottom: 3rem;
+}
+
+.bef-linha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+
+  flex-direction: column;
+
+}
+
+.linha {
+  display: flex;
+  width: 50%;
+  height: 2px;
+  border: 1rem;
+  background-color: black;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+.assinar {
+  text-align: center;
+}
+
+.flex {
+  /* display: flex; */
+  margin: 0 0 1rem 0;
+}
+
+form,
+button {
+  font-size: 1rem;
+}
+
+input {
+  font-size: 1rem;
+  padding: .1rem;
+  /* margin-right: 1rem; */
+  border-radius: .5rem;
+}
+
+.labeltext {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #008BFF;
+}
+
+form {
+  background-color: #008BFF;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* novo estilo */
+.divImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.divImg>img {
+  max-width: 10rem;
+  min-width: 5rem;
+  margin-top: 1rem;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  /* width: 30vw; */
+}
+
+label {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #dde3ec;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #a2abca;
+  outline: none;
+  resize: none;
+}
+
+.inputName {
+  /* width: 30vw;
+ 
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+    margin-right: 0rem !important; */
+}
+
+.telnasc,
+.terIni,
+.menDt,
+.RgCpf,
+.alignAll {
+  display: flex;
+  /* width: 30vw; */
+
+  justify-content: space-between;
+}
+
+.cpf,
+#idrg {
+  /* width: 14vw; */
+}
+
+#phone,
+#birthdate {
+  /* width: 14vw; */
+}
+
+#termino,
+#inicio {
+  /* width: 14vw; */
+}
+
+#valorMensalidade,
+#diaPagamento {
+  /* width: 14vw; */
+}
+
+#idrg {
+  margin-right: 0 !important;
+}
+
+.flex1 {
+  display: flex;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #dde3ec;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+  justify-content: center;
+  /* width: 30vw; */
+}
+
+.flex2 {
+  display: flex;
+  padding: .7rem;
+  border-radius: 5px;
+  border: 1px solid #dde3ec;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+  justify-content: center;
+
+}
+
+.contractType>label {
+  text-align: center;
+}
+
+.contractType {
+  /* width: 30vw; */
+  color: #07074D;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelRadio {
+  color: #07074D;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 0px !important;
+  margin: 0 1rem 0 1rem;
+}
+
+.inputRadio {
+  margin-right: 0rem !important;
+}
+
+
+input::placeholder {
+  color: #a2abca;
+}
+
+p {
+  font-size: .9rem;
+}
+
+.Buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  text-align: center;
+
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+  border: none;
+  font-weight: 500;
+  background-color: #00036D;
+  color: white;
+  cursor: pointer;
+  margin: 0.1rem;
+}
+
+#valorMensalidade,
+.cpf,
+#inicio {
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex1 {
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+    justify-content: center;
+    /* width: 30vw; */
+  }
+
+  .telnasc,
+  .terIni,
+  .menDt,
+  .RgCpf,
+  .alignAll {
+    display: flex;
+    /* width: 30vw; */
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Buttons {
+    flex-direction: column;
+
+  }
+
+  .Buttons>button {
+    margin: 1rem;
+  }
+
+  #valorMensalidade,
+  .cpf,
+  #inicio {
+    margin-right: 0rem;
+  }
+}
