@@ -73,12 +73,12 @@ function generateContractRematricula() {
       <p><strong>CONTRATADA:</strong><br>
     <div class="contratada">
       <div class="col1">
-        Razão social: 47.449.432 MARCELA EDUARDA<br>QUIRINO DA SILVA<br>
-        CNPJ: 47.449.432/0001-48<br>
+      <b>Razão social</b>: 47.449.432 MARCELA EDUARDA<br>QUIRINO DA SILVA<br>
+       <b>CNPJ</b>: 47.449.432/0001-48<br>
       </div>
      <div class="col2"> 
-        Email: marcela@besirius.com.br<br>
-        Telefone: +55 11 91697-8157
+        <b>Email</b>: marcela@besirius.com.br<br>
+        <b>Telefone</b>: +55 11 91697-8157
      </div>
     </div>
     </p>
