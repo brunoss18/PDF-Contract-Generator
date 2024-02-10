@@ -165,7 +165,19 @@ ${tipoContrato.includes('Contrato de 6 Meses') ? getContrato6Meses() : ''}
   reagendada.
   No caso de cancelamento de aula pela CONTRATADA, o CONTRATANTE deverá ser
   notificado e a aula será reagendada conforme for acordado entre as partes no momento
-  do aviso de cancelamento. <p>
+  do aviso de cancelamento. </p>
+  </div>
+  <div style="margin: 1rem">
+  <p> 
+   <b> Parágrafo único</b>:<br>
+    Ratificando que existe a condição de comunicado com no mínimo 2 (duas) horas
+    de antecedência, por parte do CONTRATANTE à CONTRATADA, para que essa
+    aula seja reagendada, caso não haja esse contato antecipado, a CONTRATADA
+    se desobriga a reagendar a aula e será também considerada como aula
+    ministrada. Ao exceder 20 minutos em um atraso, em relação ao horário
+    combinado para uma aula, a vídeo chamada será finalizada, consequentemente,
+    a aula será cancelada (sem reagendamentos).  
+  </p>
 </div>
 <div style="margin: 1rem">
     <h2>DO FORO</h2>
