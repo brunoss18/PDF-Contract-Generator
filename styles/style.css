@@ -60,7 +60,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
 
   flex-direction: column;
 
@@ -72,7 +72,7 @@ html {
   height: 2px;
   border: 1rem;
   background-color: black;
-  margin-top: 7rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
