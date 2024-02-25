@@ -312,6 +312,11 @@ button {
 }
 
 @media (max-width: 768px) {
+
+  .radioaula{
+    margin: 0 0.5rem 0 0.3rem;
+    text-align: center;
+  }
   .section {
     display: flex;
     flex-direction: column;
