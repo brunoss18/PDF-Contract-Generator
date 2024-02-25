@@ -58,7 +58,9 @@ function generateContractMatricula() {
     <div id="pdf-container">
     <img src="/imgs/logo.png">
     <h2>DAS PARTES:</h2>
-    <p><strong>CONTRATANTE:</strong><br>
+    <br>
+    <p style="break-before: auto;"><strong>CONTRATANTE:</strong><br>
+    <br>
     <div class="contratante">
         <div class="col1" >
             <b>Nome: ${name}</b><br>
@@ -73,11 +75,13 @@ function generateContractMatricula() {
        
         </div>
     </div>
-      <p><strong>CONTRATADA:</strong><br>
+    <br>
+      <p style="break-before: auto;"><strong>CONTRATADA:</strong><br>
+      <br>
     <div class="contratada">
       <div class="col1">
       <b>
-        Razão social: 47.449.432 MARCELA EDUARDA<br>QUIRINO DA SILVA<br>
+        Razão social: 47.449.432 Marcela Eduarda<br>Quirino da Silva<br>
         CNPJ: 47.449.432/0001-48<br>
         </b>
       </div>
@@ -88,34 +92,34 @@ function generateContractMatricula() {
         </b>
      </div>
     </div>
-    </p>
+   
   </div>
-  <div style="margin: 0rem">
+  <br>
+  <div style="break-before: auto;">
   <b>As partes acima identificadas têm, entre si, justo e acertado o presente
-  Aditivo Contratual ao Contrato de Prestação de Serviços Educacionais,
-  doravante denominado "Contrato", que será regido pelas cláusulas a
-  seguir:
+  Contrato de Prestação de Serviços de Ensino de Língua Estrangeira, que
+  será regido pelas cláusulas a seguir:  
   </b>
 </div>
   
-    
-  <div style="margin: 0rem">
+<br>
+  <div style="break-before: auto;">
             <h2>DO PLANO CONTRATADO</h2>
 
-                <p><b>Plano Contratado:<b> ${quantidadeAulas}de ${duracao}   cada, jogos com
+                <p style="break-before: auto;"><b>Plano Contratado:<b> ${quantidadeAulas} de ${duracao}   cada, jogos com
             exercícios de fixação da unidade.<b></p>
                     
-            <p> <b> Valor do plano:</b> ${valorMensalidade} mensais que serão pagos, todo dia 5 a partir do
+            <p style="break-before: auto;"> <b> Valor do plano:</b> ${valorMensalidade} mensais que serão pagos, todo dia 5 a partir do
             momento da assinatura desse contrato</p>
     </div>
-
-
-<div style="margin: 0rem">
+    <br>
+    
+<div style="break-before: auto;">
         <h2>DO OBJETO DO CONTRATO:</h2>
         <h4>
         Cláusula Única:
         </h4>
-        <p>O presente instrumento tem como objeto a prestação dos serviços de ensino do idioma
+        <p style="break-before: auto;">O presente instrumento tem como objeto a prestação dos serviços de ensino do idioma
         Inglês, com enfoque em inglês para fluência. Nosso método segue o principio das cinco
         linguagens do aprendizado, que são:<b>(SPEAKING) - FALA / (LISTENING) - ESCUTAR /
         (READING) - LER / (WRITING) - ESCREVER / (USE OF LANGUAGE) - GRAMÁTICA </b>
@@ -124,8 +128,8 @@ function generateContractMatricula() {
     capaz, de ouvir, interpretar, se comunicar e formar textos,
     </b>é isso a ser entregue pela<b>CONTRATADA (à) CONTRATANTE.</b>
         </p>
-    <br>
-    <p>
+        
+    <p style="break-before: auto;">
     O <b>CONTRATANTE</b> declara ciência de que, como em qualquer área acadêmica, o
     sucesso do ensino não depende somente da <b>CONTRATADA</b> e suas metologias, mas
     também e principalmente de suas próprias aplicações, dedicação e comprometimento,
@@ -135,47 +139,49 @@ function generateContractMatricula() {
     em relação as tarefas extra classe.
     </p>
 </div>
+<br>
 
 
-
-<div style="margin: 0rem">
+<div >
     <h2>DA DURAÇÃO DO CURSO</h2>
     <h4>
     Cláusula Primeira:
     </h4>
-    <p>
+    <p >
     O curso será composto de ${quantidadeAulas} com duração de ${duracao}, e
     jogos para exercícios extra classe, para que o aluno faça a parte durante a semana até o
     encontro de sua próxima aula, dessa forma complementando o aprendizado e
     crescimento pessoal no inglês. O curso terá início em ${inicio} com término em
     ${termino}.
     </p>
-    <h4>
-    Cláusula Segunda:
-    </h4>
-    <p>
-    Após o término de contrato na data estipulada em cláusula acima citada (Cláusula
-        primeira), esse contrato poderá ser prorrogado por mais ${parcela} através de aditivo
-        contratual, previamente concordado entre o(a) <b>CONTRATANTE</b> e a <b>CONTRATADA</b> e
-        assinado por ambos, dessa forma mantendo pelos outros 6 meses as cláusulas
-        acordadas nesse contrato com ou sem alterações.
-        
-    </p>
+   
 </div>
-
-
-<div style="margin: 0rem">
+<div style="break-before: page;"> 
+<h4 >
+Cláusula Segunda:
+</h4>
+<p >
+Após o término de contrato na data estipulada em cláusula acima citada (Cláusula
+    primeira), esse contrato poderá ser prorrogado por mais ${parcela} através de aditivo
+    contratual, previamente concordado entre o(a) <b>CONTRATANTE</b> e a <b>CONTRATADA</b> e
+    assinado por ambos, dessa forma mantendo pelos outros 6 meses as cláusulas
+    acordadas nesse contrato com ou sem alterações.
+    
+</p>
+</div>
+<br>
+<div style="break-before: auto;">
 <h2>DAS AULAS A SEREM MINISTRADAS</h2>
 <h4>
 Cláusula Primeira:
 </h4>
-<p>As <b>AULAS<b> serão ministradas no formato online, através da plataforma meet pelo tempo
+<p style="break-before: auto;">As <b>AULAS<b> serão ministradas no formato online, através da plataforma meet pelo tempo
 pré estipulado nesse contrato.
 </p>
 <h4>
 Cláusula Segunda:
 </h4>
-<p>Na ocorrência de cancelamento de aula pelo , este deverá notificar a
+<p style="break-before: auto;">Na ocorrência de cancelamento de aula pelo CONTRATANTE, este deverá notificar a
 <b>CONTRATADA com antecedência mínima de 2 (duas) horas, se quiser poder
 reagendar a aula. Caso a notificação aconteça em prazo inferior a 2 horas, a aula
 será devidamente contabilizada, perdendo o  o direito da aula
@@ -183,27 +189,27 @@ remarcada.</b></p>
 <h4>
 Cláusula Terceira:
 </h4>
-<p>No caso de cancelamento de aula pela <b>CONTRATADA<b>, o  deverá ser
+<p style="break-before: auto;">No caso de cancelamento de aula pela <b>CONTRATADA<b>, o  deverá ser
 notificado e a aula será reagendada conforme for acordado entre as partes no
 momento do aviso de cancelamento. <b> Válido para todos os tipos de planos</b>.
 </p>
 </div>
 
 
-
-<div style="margin: 0rem">
-<h2>DAS AULAS A SEREM MINISTRADAS</h2>
+<br>
+<div style="break-before: auto;">
+<h2>DO PAGAMENTO</h2>
 <h4>
 Cláusula Primeira:
 </h4>
-<p>
+<p style="break-before: auto;">
 Pelos serviços referidos na Cláusula Primeira, o(a)  pagará a
 <b>CONTRATADA<b> o valor de ${valorMensalidade.toFixed(2)} mensais (${valorMensalidadeExtenso}) sendo que o referido valor cobrado 6x, deverá ser pago sempre nos dias 5 de
 cada mês.
 
 </p>
-<br>
-<p style="color: red;">
+
+<p style="color: red; break-before: auto;">
 O pagamento poderá ser realizado por meio de boleto, no crédito ou PIX. O Boleto será
 enviado para o  no ato da assinatura desse contrato e cobranças posteriores
 serão enviadas no e-mail do . As aulas só terão validade a partir do
@@ -216,7 +222,7 @@ para a <b>CONTRATADA<b> por email contato@besirius.com.br ou whatsapp +55 11
 <h4>
 Cláusula Segunda:
 </h4>
-<p>
+<p style="break-before: auto;">
 Na hipótese de falta de pagamento de qualquer parcela no vencimento, o valor
 correspondente será acrescido da multa de 2% (dois por cento), encargos financeiros
 decorrentes da mora, conforme aduz artigo 52, § 1º da Lei nº 8.078/1990 e juros de 1%
@@ -228,7 +234,7 @@ outras despesas decorrentes da inadimplência.
 <h4>
 Cláusula Terceira:
 </h4>
-<p style="color: red;">
+<p style="color: red; break-before: auto;">
 A simples ausência nas aulas não desobriga o  do pagamento das
 parcelas acordadas nesse contrato.
 
@@ -238,7 +244,7 @@ parcelas acordadas nesse contrato.
 
 
 </div>
-
+<br>
 
 
 
@@ -249,13 +255,13 @@ ${tipoContrato.includes('Contrato de 12 Meses') ? getContrato12Meses() : ''}
 ${tipoContrato.includes('Contrato de 6 Meses') ? getContrato6Meses() : ''}
 
 
-
-<div style="margin: 0rem">
+<br>
+<div style="break-before: auto;">
 <h2>DA ENTREGA DOS SERVIÇOS</h2>
 <h4>
 Cláusula Primeira:
 </h4>
-<p>A <b>CONTRATADA<b> se reserva no direito de substituir o professor vigente, caso o mesmo
+<p style="break-before: auto;">A <b>CONTRATADA<b> se reserva no direito de substituir o professor vigente, caso o mesmo
 por qualquer razão esteja impossibilitado de ministrar as aulas. A <b>CONTRATADA<b> se
 obriga a entrega dos serviços educacionais, como a supervisão do mesmo e o que tange
 o seu processo de garantia de ministração das aulas e entrega do serviço de ensino de
@@ -265,13 +271,13 @@ língua inglesa.
 </div>
 
 
-
-<div style="margin: 0rem">
+<br>
+<div style="break-before: auto;">
 
 <h4>
 Parágrafo único:
 </h4>
-<p style="color: red;"> Retificando que existe a condição de comunicado com no mínimo 2 (duas) horas
+<p style="color: red; break-before: auto;"> Ratificando que existe a condição de comunicado com no mínimo 2 (duas) horas
 de antecedência, por parte do <b>CONTRATANTE</b> à <b>CONTRATADA<b>, para que essa
 aula seja reagendada, caso não haja esse contato antecipado, a <b>CONTRATADA<b>
 se desobriga a reagendar a aula e será também considerada como aula
@@ -280,33 +286,33 @@ combinado para uma aula, a vídeo chamada será finalizada, consequentemente,
 a aula será cancelada (sem reagendamentos).
 </p>
 </div>
+<br>
 
-
-<div style="margin: 0rem">
+<div style="break-before: page;"> 
 
 <h4>
 Cláusula quarta (Das férias)
 </h4>
 
-<p>Será de comum acordo entre as duas partes que teremos férias durante os anos de
+<p style="break-before: auto;">Será de comum acordo entre as duas partes que teremos férias durante os anos de
 curso, divididos nos meses julho, dezembro e janeiro. Sendo duas semanas em julho,
 uma semana de dezembro e uma em janeiro.
 Cláusula única: Nos meses de férias não existe hipótese alguma o batimento no valor da
 mensalidade </p>
 </div>
 
+<br>
 
 
 
 
 
-
-<div style="margin: 0rem">
+<div style="break-before: auto;">
     <h2>DO FORO</h2>
-    <h4>
+    <h4 style= "">
     Cláusula Única:
     </h4>
-    <p>
+    <p style="break-before: auto;">
     Para dirimir quaisquer controvérsias oriundas do CONTRATO, as partes elegem o
     Foro da Comarca de São Paulo/SP.
     Por estarem assim justos e contratados, firmam o presente instrumento, em duas
@@ -314,11 +320,12 @@ mensalidade </p>
     
     </p>
     </div>
-<div style="margin: 0rem"> 
+    <br>
+<div style="break-before: auto;"> 
     <h2>São Paulo, ${dataFormatada}</h2>
 
 </div>
-
+<br>
      
       <div class="bef-linha">
       <strong>CONTRATANTE:</strong><br>
@@ -366,14 +373,14 @@ console.log(dataFormatada); // Exibe a data formatada por extensão
 
 function getContrato6Meses() {
     return `
-    <div style="margin: 0rem">
+    <div style="break-before: auto;">
     <h2>DO PAGAMENTO:</h2>
     <h4>
     Cláusula Únice:
     </h4>
-    <p>
+    <p style="break-before: auto;">
     Para a rescisão do presente contrato pelo(a) <b>CONTRATANTE</b>, este deverá notificar (a)
-<b>CONTRATADA</b>.</p><p style="color: red;">  Caso o <b>CONTRATANTE</b> opte por cancelar o presente instrumento
+<b>CONTRATADA</b>.</p><p style="color: red; break-before: auto;">  Caso o <b>CONTRATANTE</b> opte por cancelar o presente instrumento
 com menos de [6] pagamentos mensais efetuados, a <b>CONTRATANTE</b>
 compromete-se a pagar uma taxa rescisória de 10% sobre os pagamentos mensais
 ainda devidos, à título de Despesas Administrativas, conforme artigo 9º do
@@ -390,14 +397,14 @@ possível rescisão.</p>
 
 function getContrato12Meses() {
     return `
-    <div style="margin: 0rem">
+    <div style="break-before: auto;">
     <h2>DO PAGAMENTO:</h2>
     <h4>
     Cláusula Únice:
     </h4>
-    <p>
+    <p style="break-before: auto;">
     Para a rescisão do presente contrato pelo(a) <b>CONTRATANTE</b>, este deverá notificar (a)
-<b>CONTRATADA</b>.</p><p style="color: red;">  Caso o <b>CONTRATANTE</b> opte por cancelar o presente instrumento
+<b>CONTRATADA</b>.</p><p style="color: red; break-before: auto;">  Caso o <b>CONTRATANTE</b> opte por cancelar o presente instrumento
 com menos de [12] pagamentos mensais efetuados, a <b>CONTRATANTE</b>
 compromete-se a pagar uma taxa rescisória de 10% sobre os pagamentos mensais
 ainda devidos, à título de Despesas Administrativas, conforme artigo 9º do
@@ -420,31 +427,35 @@ function exportToPDF() {
         margin: 20,
         filename: `Contrato_BeSirius_${name.replace(/\s/g, '_')}.pdf`, // Incluindo o nome do aluno no nome do arquivo PDF
         pagebreak: { mode: ['avoid-all'] }, // Configuração para evitar quebras de página
+        
         image: {
-            type: 'txt',
+            type: 'jpeg',
             quality: 0.98
         },
         html2canvas: {
             scale: 2
         },
+        
         jsPDF: {
             unit: 'mm',
             format: 'a4',
             orientation: 'portrait'
         },
-        // autoPaging: true, // Configuração para quebrar o texto automaticamente
+        autoPaging: true, // Configuração para quebrar o texto automaticamente
         header: [{
-            image: 'caminho/para/sua/imagem.jpg', // Substitua pelo caminho da sua imagem
+            // image: 'caminho/para/sua/imagem.jpg', // Substitua pelo caminho da sua imagem
             width: 50, // Ajuste conforme necessário
             height: 30 // Ajuste conforme necessário
         }],
-        
-        css: `
+       
+        // css: `
 
       
-        `
+        // `,
+        
+          
     };
-
+  
     html2pdf(contractOutput, options)
       // Adicionar quebra de página entre seções
       const sections = document.querySelectorAll('.contract-section');
@@ -453,7 +464,9 @@ function exportToPDF() {
           breakPageElement.style.pageBreakAfter = 'always';
           section.appendChild(breakPageElement);
       });
+
 }
+
 
 
 

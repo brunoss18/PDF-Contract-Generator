@@ -46,9 +46,15 @@ html {
   justify-content: space-between;
 }
 
-.contratante>.col1 {}
+.contratante>.col1,
+.contratada>.col1 {
+  width: 50%;
+}
 
-.contratante>.col2 {}
+.contratante>.col2,
+.contratada>.col2 {
+  width: 50%;
+}
 
 #pdf-container>img {
   width: 10rem;
