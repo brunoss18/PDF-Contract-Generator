@@ -312,8 +312,11 @@ button {
 }
 
 @media (max-width: 768px) {
+  #phone, #birthdate {
+   width: 100%;
+}
   .inputRadio{
-    width: 1rem;
+    width: .5rem;
   }
 
   .radioaula{
