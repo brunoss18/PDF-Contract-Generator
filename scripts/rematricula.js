@@ -54,36 +54,45 @@ function generateContractRematricula() {
   
 
         <div id="pdf-container">
-        <img src="/imgs/logo.png">
-        <h2>DAS PARTES:</h2>
-        <p><strong>CONTRATANTE:</strong><br>
-        <div class="contratante">
-            <div class="col1" >
-                <b>Nome:</b> ${name}<br>
-                <b>Data de nascimento:</b>  ${birthdate} <br>
-                <b>CPF:</b>  ${cpf}<br>
-            </div>
-            <div  class="col2" >  
-            <b>Endereço:</b>   ${endereco}<br>
-            <b>Identidade:</b>   ${idrg}<br>
-            <b>Email:</b>    ${email}<br>
-            <b>Telefone: </b>   ${phone}<br>
-            </div>
+    <img src="/imgs/logo.png">
+    <h2>DAS PARTES:</h2>
+    <br>
+    <p style="break-before: auto;"><strong>CONTRATANTE:</strong><br>
+    <br>
+    <div class="contratante">
+        <div class="col1" >
+            <b>Nome: ${name}</b><br>
+            <b>Data de nascimento: ${birthdate} </b> <br>
+            <b>CPF:  ${cpf}</b><br>
+            <b>Telefone:    ${phone}</b><br>
         </div>
-      <p><strong>CONTRATADA:</strong><br>
+        <div  class="col2" >  
+        <b>Endereço:  ${endereco}</b> <br>
+        <b>Identidade:   ${idrg}</b><br>
+        <b>Email:    ${email}</b><br>
+       
+        </div>
+    </div>
+    <br>
+      <p style="break-before: auto;"><strong>CONTRATADA:</strong><br>
+      <br>
     <div class="contratada">
       <div class="col1">
-      <b>Razão social</b>: 47.449.432 MARCELA EDUARDA<br>QUIRINO DA SILVA<br>
-       <b>CNPJ</b>: 47.449.432/0001-48<br>
+      <b>
+        Razão social: 47.449.432 Marcela Eduarda<br>Quirino da Silva<br>
+        CNPJ: 47.449.432/0001-48<br>
+        </b>
       </div>
      <div class="col2"> 
-        <b>Email</b>: marcela@besirius.com.br<br>
-        <b>Telefone</b>: +55 11 91697-8157
+     <b>
+        Email: marcela@besirius.com.br<br>
+        Telefone: +55 11 91697-8157
+        </b>
      </div>
     </div>
-    </p>
+   
   </div>
-
+<br>
   <b>As partes acima identificadas têm, entre si, justo e acertado o presente
   Aditivo Contratual ao Contrato de Prestação de Serviços Educacionais,
   doravante denominado "Contrato", que será regido pelas cláusulas a

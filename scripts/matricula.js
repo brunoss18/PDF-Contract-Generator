@@ -106,8 +106,7 @@ function generateContractMatricula() {
   <div style="break-before: auto;">
             <h2>DO PLANO CONTRATADO</h2>
 
-                <p style="break-before: auto;"><b>Plano Contratado:<b> ${quantidadeAulas} de ${duracao}   cada, jogos com
-            exercícios de fixação da unidade.<b></p>
+                <p style="break-before: auto;"><b>Plano Contratado:<b> ${quantidadeAulas} de ${duracao} cada, material digital incluso.<b></p>
                     
             <p style="break-before: auto;"> <b> Valor do plano:</b> ${valorMensalidade} mensais que serão pagos, todo dia 5 a partir do
             momento da assinatura desse contrato</p>
@@ -124,7 +123,7 @@ function generateContractMatricula() {
         linguagens do aprendizado, que são:<b>(SPEAKING) - FALA / (LISTENING) - ESCUTAR /
         (READING) - LER / (WRITING) - ESCREVER / (USE OF LANGUAGE) - GRAMÁTICA </b>
         essas cinco linguagens de aprendizado são também as cinco competências exigidas
-    nas provas de proficiência<b>então o nosso enfoque e objetivo é fazer o aluno ser
+    nas provas de proficiência <b> então o nosso enfoque e objetivo é fazer o aluno ser
     capaz, de ouvir, interpretar, se comunicar e formar textos,
     </b>é isso a ser entregue pela<b>CONTRATADA (à) CONTRATANTE.</b>
         </p>

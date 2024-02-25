@@ -340,7 +340,7 @@ button {
     outline: none;
     resize: none;
     justify-content: center;
-    /* width: 30vw; */
+    width: 100%;
   }
 
   .telnasc,
