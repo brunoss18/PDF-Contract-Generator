@@ -108,7 +108,7 @@ function generateContractMatricula() {
 
                 <p style="break-before: auto;"><b>Plano Contratado:<b> ${quantidadeAulas} de ${duracao} cada, material digital incluso.<b></p>
                     
-            <p style="break-before: auto;"> <b> Valor do plano:</b> ${valorMensalidade} mensais que serão pagos, todo dia 5 a partir do
+            <p style="break-before: auto;"> <b> Valor do plano:</b> ${valorMensalidade} mensais que serão pagos, todo dia ${pagamento} a partir do
             momento da assinatura desse contrato</p>
     </div>
     <br>
@@ -161,7 +161,7 @@ Cláusula Segunda:
 </h4>
 <p >
 Após o término de contrato na data estipulada em cláusula acima citada (Cláusula
-    primeira), esse contrato poderá ser prorrogado por mais ${parcela} através de aditivo
+    primeira), esse contrato poderá ser prorrogado por mais 6 meses através de aditivo
     contratual, previamente concordado entre o(a) <b>CONTRATANTE</b> e a <b>CONTRATADA</b> e
     assinado por ambos, dessa forma mantendo pelos outros 6 meses as cláusulas
     acordadas nesse contrato com ou sem alterações.
@@ -203,7 +203,7 @@ Cláusula Primeira:
 </h4>
 <p style="break-before: auto;">
 Pelos serviços referidos na Cláusula Primeira, o(a)  pagará a
-<b>CONTRATADA<b> o valor de ${valorMensalidade.toFixed(2)} mensais (${valorMensalidadeExtenso}) sendo que o referido valor cobrado 6x, deverá ser pago sempre nos dias 5 de
+<b>CONTRATADA<b> o valor de ${valorMensalidade.toFixed(2)} mensais (${valorMensalidadeExtenso}) sendo que o referido valor cobrado ${parcela}, deverá ser pago sempre nos dias ${pagamento} de
 cada mês.
 
 </p>
