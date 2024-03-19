@@ -9,10 +9,10 @@ function generateContractRematricula() {
         console.log('Rematricula cancelada pelo usuário.');
     }
 
-   
-        var contractDiv = document.getElementById('contractStyle');
-        // Define o estilo da div para 'block' para mostrar quando clicado
-        contractDiv.style.display = 'block';
+
+    var contractDiv = document.getElementById('contractStyle');
+    // Define o estilo da div para 'block' para mostrar quando clicado
+    contractDiv.style.display = 'block';
 
 
     function generateContract() {
@@ -36,7 +36,7 @@ function generateContractRematricula() {
             .map(checkbox => checkbox.value)
             .join(', ');
 
-            const vigencia = Array.from(document.querySelectorAll('input[name="vigencia"]:checked'))
+        const vigencia = Array.from(document.querySelectorAll('input[name="vigencia"]:checked'))
             .map(checkbox => checkbox.value)
             .join(', ');
 
@@ -44,7 +44,7 @@ function generateContractRematricula() {
             .map(checkbox => checkbox.value)
 
         const quantidadeAulas = Array.from(document.querySelectorAll('input[name="quantidadeAulas"]:checked'))
-            .map(checkbox => checkbox.value)
+            .map(checkbox => checkbox.value)  
             .join(', ');
 
 
