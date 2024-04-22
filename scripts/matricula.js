@@ -116,7 +116,7 @@ function generateContractMatricula() {
 <div style="break-before: auto;">
         <h2>DO OBJETO DO CONTRATO:</h2>
         <h4>
-        Cláusula Única:
+        Cláusula Primeira:
         </h4>
         <p style="break-before: auto;">O presente instrumento tem como objeto a prestação dos serviços de ensino do idioma
         Inglês, com enfoque em inglês para fluência. Nosso método segue o principio das cinco
@@ -137,6 +137,10 @@ function generateContractMatricula() {
     positiva e intensa tanto em aula, como fora dela em relação aos conteúdos aplicados e
     em relação as tarefas extra classe.
     </p>
+
+    <h4>Cláusula Segunda:<h4>
+    <p style="break-before: auto;">As partes concordam que são livres para rescindir este contrato a qualquer momento, sem incorrer em qualquer penalidade ou obrigação de fidelidade </p>
+        
 </div>
 <br>
 
