@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
         cpfInput.value = cpf;
     });
 
-    rgInput.addEventListener('input', function() {
-        var rg = rgInput.value.replace(/\D/g, '');
-        if (rg.length > 20) {
-            rg = rg.substring(0, 20);
-        }
-        rg = rg.replace(/(\d{2})(\d)/, '$1.$2');
-        rg = rg.replace(/(\d{3})(\d)/, '$1.$2');
-        rg = rg.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
-        rgInput.value = rg;
-    });
+    // rgInput.addEventListener('input', function() {
+    //     var rg = rgInput.value.replace(/\D/g, '');
+    //     if (rg.length > 20) {
+    //         rg = rg.substring(0, 20);
+    //     }
+    //     rg = rg.replace(/(\d{2})(\d)/, '$1.$2');
+    //     rg = rg.replace(/(\d{3})(\d)/, '$1.$2');
+    //     rg = rg.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+    //     rgInput.value = rg;
+    // });
 
 
 });
